@@ -1,6 +1,8 @@
-## A static site built with Gatsby for Reeborn Consultant
+## What's about?
 
-## 🧐 What's inside?
+A static site built with Gatsby for Reeborn Consultant
+
+## What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
