@@ -66,8 +66,6 @@ const Body = () => {
         </p>
       </div>
       <div className="names">
-        <h5>Jean Theroux &</h5>
-        <h5>Sofiane Guizani</h5>
         <h6>Jean Theroux & Sofiane Guizani</h6>
       </div>
     </Container>
@@ -78,12 +76,12 @@ export default Body
 
 const Container = styled.div`
   font-family: "Nunito", sans-serif !important;
-  max-width: 600px;
+  max-width: 580px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   margin-left: 7em;
-  padding-top: 15em;
+  padding-top: 18em;
   padding-bottom: 2em;
   padding-right: 15px;
   h1 {
@@ -111,6 +109,7 @@ const Container = styled.div`
     font-weight: 600;
     line-height: 1.5em;
     margin: 0.25em 0;
+    text-align: justify;
   }
   h5 {
     color: #6b6567;
@@ -121,7 +120,7 @@ const Container = styled.div`
     color: #081929;
     font-size: 16px;
     font-weight: 600;
-    margin-top: 4em;
+    margin-top: 3em;
   }
   .names {
     margin-top: 8em;
@@ -136,6 +135,10 @@ const Container = styled.div`
   }
   .hide {
     display: none;
+  }
+  @media only screen and (max-width: 1500px) {
+    margin-left: 3.5em;
+    max-width: 550px;
   }
   @media only screen and (max-width: 740px) {
     margin: auto;
